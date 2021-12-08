@@ -38,36 +38,74 @@ education:
 skills:
   - category: Data types
     skill: | 
-      Longitudinal data,
-      High-throughput omics data,
-      public health and clinical data.
-  - category: Statistical techniques
+      DNASeq,
+      RNASeq,
+      scRNASeq,
+      microbiome,
+      metagenomics,
+      RT-qPCR,
+      CyTOF,
+      Microarrays.
+  - category: Bioinformatics techniques
     skill: |
+      Sequence analysis,
+      Compositional data analysis (CoDA),
       Generalized Linear Models (GLM),
       Mixed-Models,
       Survival analysis,
       Statistical Machine Learning,
-      Bayesian data analysis,
-      Compositional data analysis (CoDA).
+      Bayesian data analysis.
   - category: Data analysis software
     skill: |
-      SAS,
-      R and related ecosystem of packages such as Bioconductor and tidyverse.
-      Machine learning software such as Keras, mlverse, TensorFlow.
-      Bayesian computing software OpenBUGS, JAGS, Stan.
-      Data visualization softwares such as ggplot2, shinyapps, flexdashboards.
+      R,
+      python,
+      PERL,
+      and related ecosystem of packages such as
+      Bioconductor,
+      Biopython and
+      BioPERL.
+      Keras,
+      mlverse,
+      RJAGS,
+      Stan.
+  - category: High performance computing
+    skill: |
+      Portable Batch System (PBS),
+      Oracle Grid Engine,
+      Apache Spark,
+      HIVE,
+      HDFS.
+  - category: Visualization
+    skill: |
+      IGV,
+      Circos,
+      ggplot2,
+      shiny dashboards.
   - category: Databases
     skill: |
-      REDCap,
-      MySQL using RODBC interface.
+      NCBI,
+      UCSC,
+      GENCODE,
+      TCGA,
+      COSMIC,
+      Ensembl,
+      MGI,
+      KEGG,
+      MsigDB,
+      gnomAD,
+      ClinVar,
+      dbGaP and
+      dbSNP.
 
 # Profile
 profile: |
-  Experienced biostatistician with strong applied statistics and computing background. 
-  Hands on experience in writing statistical analysis plans (SAP), designing experiments 
-  and providing insightful, actionable reports. Effective at communicating complex results 
-  to diverse audiences, and ensuring understanding of requirements at all levels of 
-  a cross functional team for smooth collaboration and timely execution of projects.
+  Bioinformatician with 16 years of research experience in both academia and
+  industry. Extensive background in developing generalizable and reliable
+  sequencing algorithms. Strong applied statistics and computing skills. Deep
+  understanding of genomic data formats and nuances of measurement techniques.
+  Proficient computing skills to implement complex analyses strategies with
+  efficient use of resources. Valuable team player who thrives in diverse,
+  cross-functional teams.
 
 # Experience
 experience:
@@ -88,11 +126,11 @@ experience:
       Developed analysis workflows and structural variation algorithms.
 
 highlights:
-  - contribution: Statistical
+  - contribution: Genomics
     items:
-      - Decided appropriate statistical strategies on several grants and projects.
-      - Analyzed data with missing or repeated measures, time to event response or relative abundance measures such as RNA-Seq and microbiome datasets.
-      - Ensured data provenance with good data hygiene.
+      - Decided appropriate algorithmic and statistical strategies as well as the genomic technology to use for the intended application.
+      - Helped with genomic technology development by designing, collecting and analyzing benchmarking data to meet technical specifications.
+      - Performed both secondary and tertiary analyses of next generation sequencing data.
       - Used Bayesian, empirical Bayes, and frequentist techniques as appropriate.
       - Managed client expectations with timely delivery of complex analyses, meeting pre and post funding deliverables, resulting in highly cited publications.
       - Successfully completed support as primary statistician on multi- center, multi-year complex grants and projects (Program Projects and R01).
@@ -101,12 +139,13 @@ highlights:
     items:
      - Operationalized statistical strategies with efficient computing.
      - Performed quality control, data cleaning and data engineering.
-     - Designed, developed, and implemented appropriate computing infrastructure required for study monitoring and analyses.
+     - Designed, developed, and implemented appropriate computing infrastructure required for data management and analyses in data intensive settings.
      - Developed reusable and modular software components such as R packages, analytic workflows, and data visualizations such as shiny apps and dashboards.
      - Implemented best computing practices using knitr, R Notebooks, version control like Git and containers like Docker.
   - contribution: Team 
     items: |
       Exchanged ideas with colleagues to learn and implement emerging analytical and computational techniques. Mentored other team members and student collaborators as required.
+      
 projects:
   - title: Cool Project 
     link: #
